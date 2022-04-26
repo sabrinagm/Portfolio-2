@@ -1,0 +1,38 @@
+{
+  "files": {
+    "app.js": "/Portfolio-2/static/js/app.b7e5441e.chunk.js",
+    "app.js.map": "/Portfolio-2/static/js/app.b7e5441e.chunk.js.map",
+    "runtime~app.js": "/Portfolio-2/static/js/runtime~app.e0dffe1f.js",
+    "runtime~app.js.map": "/Portfolio-2/static/js/runtime~app.e0dffe1f.js.map",
+    "static/js/2.e15ad61e.chunk.js": "/Portfolio-2/static/js/2.e15ad61e.chunk.js",
+    "static/js/2.e15ad61e.chunk.js.map": "/Portfolio-2/static/js/2.e15ad61e.chunk.js.map",
+    "fonts/AntDesign.ttf": "/Portfolio-2/./fonts/AntDesign.ttf",
+    "fonts/Entypo.ttf": "/Portfolio-2/./fonts/Entypo.ttf",
+    "fonts/Feather.ttf": "/Portfolio-2/./fonts/Feather.ttf",
+    "fonts/FontAwesome.ttf": "/Portfolio-2/./fonts/FontAwesome.ttf",
+    "fonts/FontAwesome5_Brands.ttf": "/Portfolio-2/./fonts/FontAwesome5_Brands.ttf",
+    "fonts/FontAwesome5_Solid.ttf": "/Portfolio-2/./fonts/FontAwesome5_Solid.ttf",
+    "fonts/Fontisto.ttf": "/Portfolio-2/./fonts/Fontisto.ttf",
+    "fonts/Foundation.ttf": "/Portfolio-2/./fonts/Foundation.ttf",
+    "fonts/Ionicons.ttf": "/Portfolio-2/./fonts/Ionicons.ttf",
+    "fonts/MaterialCommunityIcons.ttf": "/Portfolio-2/./fonts/MaterialCommunityIcons.ttf",
+    "fonts/MaterialIcons.ttf": "/Portfolio-2/./fonts/MaterialIcons.ttf",
+    "fonts/SimpleLineIcons.ttf": "/Portfolio-2/./fonts/SimpleLineIcons.ttf",
+    "favicon-16.png": "/Portfolio-2/favicon-16.png",
+    "favicon-32.png": "/Portfolio-2/favicon-32.png",
+    "favicon.ico": "/Portfolio-2/favicon.ico",
+    "index.html": "/Portfolio-2/index.html",
+    "manifest.json": "/Portfolio-2/manifest.json",
+    "serve.json": "/Portfolio-2/serve.json",
+    "static/js/2.e15ad61e.chunk.js.LICENSE.txt": "/Portfolio-2/static/js/2.e15ad61e.chunk.js.LICENSE.txt",
+    "static/media/bell.png": "/Portfolio-2/static/media/bell.cf04af27.png",
+    "static/media/heart.png": "/Portfolio-2/static/media/heart.23b5c2c0.png",
+    "static/media/rocket.png": "/Portfolio-2/static/media/rocket.d2f3bf41.png",
+    "static/media/star.png": "/Portfolio-2/static/media/star.69c71386.png"
+  },
+  "entrypoints": [
+    "static/js/runtime~app.e0dffe1f.js",
+    "static/js/2.e15ad61e.chunk.js",
+    "static/js/app.b7e5441e.chunk.js"
+  ]
+}
