@@ -8,3 +8,5 @@ The first new component I created was the Login function, which allows the user 
 The second component I have created is a logout function, which returns the user to the login screen when the exit button is clicked.
 
 Both the ToDo list and the Logout component are called within the return statement of the Login component. The Login component is then called within the App.js file.
+
+GitHub Pages Link: https://sabrinagm.github.io/Portfolio-2/
