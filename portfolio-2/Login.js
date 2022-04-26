@@ -83,6 +83,7 @@ const loginStyles = StyleSheet.create({
     },
     error: {
       color: "red",
+      textAlign: "center",
     },
     button: {
         marginLeft: 80,
