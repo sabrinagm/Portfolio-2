@@ -1,9 +1,10 @@
-import {useCallback, useState} from 'react';
+import { useCallback, useState } from 'react';
 import { Button } from 'react-native-elements';
 import { Text, View, TextInput, StyleSheet } from 'react-native';
 import { StatusBar } from 'expo-status-bar';
 
 import ToDoList from './ToDoList';
+import Logout from './Logout';
 
 function Login() {
     //Sets the login state.
@@ -19,7 +20,7 @@ function Login() {
         //If the entered password is equal to "4639", the password is correct and setLogin is set to true and the entered username value is saved
         if(passwordValue === "4639"){
             setLogin(true)
-            user(setUser)
+            user=setUser
         }
         //If the password is incorrect, instead the user recieves an error.
         else{
@@ -31,8 +32,9 @@ function Login() {
         login ?
         <>
         <View>
-            <Text style={loginStyles.welcomeMessage}>Welcome back to your to-do list, {user}!</Text>
-            <ToDoList></ToDoList>
+        <Text style={loginStyles.loggedInMessage}>Welcome back to your to-do list, {user}!</Text>
+        <ToDoList></ToDoList>
+        <Logout></Logout>
         </View>
         </>
         :
@@ -41,13 +43,21 @@ function Login() {
         <TextInput style={loginStyles.input} placeholder="Username" onChangeText={setUser}></TextInput>
         <TextInput style={loginStyles.input} onChangeText={setPasswordValue} value={passwordValue} placeholder="Password"></TextInput>
         <Button style={loginStyles.button} title="Login" onPress={loggingIn}></Button>
-        <Text>{errorText}</Text>
+        <Text style={loginStyles.error}>{errorText}</Text>
         <StatusBar style="auto" />
       </View>
     )
 }
 
 const loginStyles = StyleSheet.create({
+    loggedInMessage: {
+        alignContent: 'center',
+        textAlign: 'center',
+        justifyContent: 'center',
+        flex: 1,
+        marginTop: 10,
+        fontSize: 15,
+    },
     welcomeMessage: {
         alignContent: 'center',
         textAlign: 'center',
@@ -71,7 +81,7 @@ const loginStyles = StyleSheet.create({
       alignItems: 'center',
       justifyContent: 'center',
     },
-    errorText: {
+    error: {
       color: "red",
     },
     button: {

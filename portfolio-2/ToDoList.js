@@ -40,7 +40,8 @@ function ToDoList() {
 
       <View style={styles.innerContainer}>
         <View styles={[{ height: 30, paddingBottom: 20 }, styles.input]}>
-          <Input value={inputText} onChangeText={setInputText} style={{ height: 30, paddingBottom: 20 }}></Input><Button title="Add" onPress={addTask}></Button>
+          <Input value={inputText} onChangeText={setInputText} style={{ height: 30, paddingBottom: 20 }}></Input>
+          <Button title="Add" onPress={addTask}></Button>
         </View>
         <FlatList data={tasks} renderItem={({ item: task }) =>
           <CheckBox onPress={() => {
@@ -67,8 +68,9 @@ const styles = StyleSheet.create({
     flex: 1,
     flexDirection: "row",
     justifyContent: "space-between",
-    height: 100,
+    height: 10,
     borderWidth: 2,
+    borderStyle: 'solid',
   },
   title: {
     fontSize: 25,
@@ -86,6 +88,7 @@ const styles = StyleSheet.create({
     backgroundColor: '#fff',
     alignItems: 'center',
     justifyContent: 'center',
+    marginTop: -20,
   },
 });
 
