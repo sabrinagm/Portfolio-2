@@ -6,22 +6,22 @@ function ToDoList() {
   let [inputText, setInputText] = useState("")
   let [tasks, setTasks] = useState([
     {key:"1", 
-    description: "Go grocery shopping",
-    completed: true
+    description: "Art Project - April 25",
+    completed: false
     },
     
     {key:"2",
-    description: "Finish class project",
+    description: "Final Exam - April 29",
     completed: false
     },
 
     {key:"3", 
-    description: "Do laundry",
-    completed: true
+    description: "Design Project - April 30",
+    completed: false
     },
 
     {key:"4",
-    description: "Wash car",
+    description: "Math Assignment - April 31",
     completed: false
     }
   ])
